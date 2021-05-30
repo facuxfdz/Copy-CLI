@@ -104,7 +104,7 @@ def cli() -> argparse.Namespace :
     group.add_argument(
         '-i','--interactive',
         action='store_true',
-        help=''
+        help='Prompt before overwrite'
     )
     parser.add_argument(
         '-r','--recursive',
